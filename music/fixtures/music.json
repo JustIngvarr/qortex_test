@@ -1,0 +1,30 @@
+[
+    {
+        "model": "music.artist",
+        "pk": 1,
+        "fields": { "name": "Rammstein" }
+    },
+    {
+        "model": "music.song",
+        "pk": 1,
+        "fields": { "title": "Du hast" }
+    },
+    {
+        "model": "music.album",
+        "pk": 1,
+        "fields": {
+            "title": "Sehnsucht",
+            "artist": 1,
+            "release_year": 1997
+        }
+    },
+    {
+        "model": "music.albumsong",
+        "pk": 1,
+        "fields": {
+            "album": 1,
+            "song": 1,
+            "track_number": 5
+        }
+    }
+]
